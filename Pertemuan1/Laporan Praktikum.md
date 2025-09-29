@@ -11,7 +11,7 @@ Struktur data membantu memahami hubungan antara data dan memungkinkan untuk menc
 
 ## Guided 
 
-### 1. ...
+### 1.
 
 ```C++
 #include<iostream>
@@ -26,7 +26,7 @@ int main(){
 ```
 Program C++ ini digunakan untuk menampilkan teks
 
-### 2. ...
+### 2.
 
 ```C++
 #include<iostream>
@@ -47,7 +47,7 @@ int main(){
 }
 ```
 Program C++ ini digunakan untuk melakukan perhitungan dasar
-### 3. ...
+### 3.
 
 ```C++
 #include<iostream>
@@ -96,7 +96,7 @@ int main(){
 ```
 Program C++ ini digunakan untuk melakukan percabangan dengan if-else dan switch case
 
-### 4. ...
+### 4.
 
 ```C++
 #include<iostream>
@@ -131,7 +131,7 @@ int main(){
 ```
 Program C++ ini digunakan untuk melakukan perulangan
 
-### 5. ...
+### 5.
 
 ```C++
 #include<iostream>
@@ -168,7 +168,9 @@ Program ini berfungsi untuk menerima input nama dan nilai dari 3 siswa, lalu men
 
 ## Unguided 
 
-### 1. (isi dengan soal unguided 1)
+### 1. Buatlah program yang menerima input-an dua buah bilangan bertipe float, kemudian memberikan output-an hasil penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan tersebut.
+
+
 
 ```C++
 #include<iostream>
@@ -190,47 +192,100 @@ int main(){
 ```
 ### Output Unguided 1 :
 
-##### Output 1
-![Output Guided1](https://github.com/MuhammadShabrian/103112400087_Muhammad-Shabrian-Fadly/blob/main/Pertemuan1/Output%20Guided1.png)
-
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Output Unguided1](https://github.com/MuhammadShabrian/103112400087_Muhammad-Shabrian-Fadly/blob/main/Pertemuan1/Output%20Unguided1.png)
 
 penjelasan unguided 1 
 
-### 2. (isi dengan soal unguided 2)
+### 2. Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100
 
 ```C++
-source code unguided 2
+#include <iostream>
+#include <string>
+using namespace std;
+
+string satuan(int n) {
+    string arr[] = {"nol", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
+    return arr[n];
+}
+
+string puluhan(int n) {
+    if (n < 10) return satuan(n);
+    else if (n == 10) return "sepuluh";
+    else if (n == 11) return "sebelas";
+    else if (n < 20) return satuan(n % 10) + " belas";
+    else {
+        int p = n / 10;
+        int s = n % 10;
+        string res = satuan(p) + " puluh";
+        if (s != 0) res += " " + satuan(s);
+        return res;
+    }
+}
+
+int main() {
+    int angka;
+    cout << "Masukkan angka (0 - 100): ";
+    cin >> angka;
+
+    if (angka < 0 || angka > 100) {
+        cout << "Masukkan angka harus antara 0 sampai 100!" << endl;
+        return 1;
+    }
+
+    if (angka == 100) {
+        cout << "seratus" << endl;
+    } else {
+        cout << puluhan(angka) << endl;
+    }
+
+    return 0;
+}
+ 
 ```
 ### Output Unguided 2 :
-
-##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![alt text](image.png)
 
 penjelasan unguided 2
 
-### 3. (isi dengan soal unguided 3)
+### 3. Buatlah program yang dapat memberikan input dan output sbb.
+
+
 
 ```C++
-source code unguided 3
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Input: ";
+    cin >> n;
+
+    for (int i = 0; i < n; i++) {
+    
+        for (int s = 0; s < i * 2; s++) {
+            cout << " ";
+        }
+
+        for (int dec = n - i; dec >= 1; dec--) {
+            cout << dec << " ";
+        }
+        cout << "* ";
+
+        for (int asc = 1; asc <= n - i; asc++) {
+            cout << asc;
+            if (asc != n - i) cout << " ";
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
+
+
 ```
 ### Output Unguided 3 :
-
-##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Out](image.png)
 
 penjelasan unguided 3
 
