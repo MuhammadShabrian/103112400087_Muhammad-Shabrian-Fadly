@@ -191,7 +191,7 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-Pertemuan1/Output Guided1.png
+![Output Guided1](https://github.com/MuhammadShabrian/103112400087_Muhammad-Shabrian-Fadly/blob/main/Pertemuan1/Output%20Guided1.png)
 
 ##### Output 2
 ![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
