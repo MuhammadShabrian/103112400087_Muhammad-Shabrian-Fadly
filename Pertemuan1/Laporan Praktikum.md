@@ -24,7 +24,7 @@ int main(){
     return 0;
 }
 ```
-Program C++ ini digunakan untuk menampilkan teks
+Program C++ ini digunakan untuk menampilkan teks sesuia yang dimasukkan 
 
 ### 2.
 
@@ -194,7 +194,7 @@ int main(){
 
 ![Output Unguided1](https://github.com/MuhammadShabrian/103112400087_Muhammad-Shabrian-Fadly/blob/main/Pertemuan1/Output%20Unguided1.png)
 
-penjelasan unguided 1 
+Program C++ ini menerima input berupa dua bilangan bertipe float, lalu menampilkan hasil penjumlahan, pengurangan, perkalian, dan pembagian dari kedua bilangan tersebut.
 
 ### 2. Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100
 
@@ -243,9 +243,9 @@ int main() {
  
 ```
 ### Output Unguided 2 :
-![alt text](image.png)
+![Output Unguided2](https://github.com/MuhammadShabrian/103112400087_Muhammad-Shabrian-Fadly/blob/main/Pertemuan1/Output%20Unguided2.png)
 
-penjelasan unguided 2
+Program C++ ini meminta input sebuah angka bulat positif (0–100), kemudian mengubah angka tersebut menjadi bentuk tulisan dalam bahasa Indonesia.
 
 ### 3. Buatlah program yang dapat memberikan input dan output sbb.
 
@@ -285,14 +285,15 @@ int main() {
 
 ```
 ### Output Unguided 3 :
-![Out](image.png)
+![Output Unguided3](https://github.com/MuhammadShabrian/103112400087_Muhammad-Shabrian-Fadly/blob/main/Pertemuan1/Output%20Unguided3.png)
 
-penjelasan unguided 3
+Program C++ ini menerima input berupa bilangan bulat n lalu menampilkan pola deret menurun (descending) dan menaik (ascending) dengan tambahan simbol * di tengah.
 
 ## Kesimpulan
-...
+Dari praktikum ini, kita dapat memahami bahwa bahasa C++ menyediakan berbagai fitur dasar pemrograman seperti input-output, operasi aritmatika, percabangan, hingga perulangan yang menjadi fondasi dalam membangun sebuah program. Selain itu, penggunaan struktur data sederhana seperti array dan struct membantu menyusun data agar lebih terorganisir. Dari latihan guided maupun unguided, kita jadi sadar kalau logika program itu kunci utama biar hasilnya sesuai yang diinginkan.
 
 ## Referensi
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+[1] Saragih, R. A., Surya, Syahrozi, H., Gunawan, I., & Sembiring, H. (2023). Data dan Struktur Data dalam Perancangan Algoritma Efisien. Jurnal Komputer dan Informatika STIKOM Tunas Bangsa, 5(1), 1-2. 
+https://www.scribd.com/document/511818478/Jurnal-Struktur-Data
+<br>[2] Naraindyah, R.A.(2024), Struktur Data: Pengertian, Fungsi, dan Penerapannya
+https://terapan-ti.vokasi.unesa.ac.id/post/struktur-data-pengertian-fungsi-dan-penerapannya
