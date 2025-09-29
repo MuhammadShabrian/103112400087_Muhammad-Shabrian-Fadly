@@ -24,7 +24,7 @@ int main(){
     return 0;
 }
 ```
-penjelasan singkat guided 1
+Program C++ ini digunakan untuk menampilkan teks
 
 ### 2. ...
 
@@ -46,8 +46,7 @@ int main(){
     return 0;
 }
 ```
-penjelasan singkat guided 2
-
+Program C++ ini digunakan untuk melakukan perhitungan dasar
 ### 3. ...
 
 ```C++
@@ -95,7 +94,7 @@ int main(){
 }
 }
 ```
-penjelasan singkat guided 3
+Program C++ ini digunakan untuk melakukan percabangan dengan if-else dan switch case
 
 ### 4. ...
 
@@ -130,7 +129,7 @@ int main(){
 }
 
 ```
-
+Program C++ ini digunakan untuk melakukan perulangan
 
 ### 5. ...
 
@@ -163,8 +162,8 @@ while (j < MAX)
 return 0; 
 }
 
-
 ```
+Program ini berfungsi untuk menerima input nama dan nilai dari 3 siswa, lalu menampilkan kembali data tersebut ke layar menggunakan struktur data struct dan array.
 
 
 ## Unguided 
@@ -172,15 +171,27 @@ return 0;
 ### 1. (isi dengan soal unguided 1)
 
 ```C++
-source code unguided 1
+#include<iostream>
+using namespace std;
+
+int main(){
+    float angka1, angka2;
+    cout << "masukkan angka 1 : ";
+    cin >> angka1;
+    cout << "masukkan angka 2: ";
+    cin >> angka2;
+
+    cout<<"penjumlahan = "<< angka1 + angka2 <<endl;
+    cout<<"pengurangan = "<< angka1 - angka2 <<endl;
+    cout<<"perkalian = "<< angka1 * angka2 <<endl;
+    cout<<"pembagian = "<< angka1 / angka2 <<endl;
+    return 0;
+}
 ```
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
+(D:\Coding manja\semester3\103112400087_Muhammad-Shabrian-Fadly\Pertemuan1\Output Guided1.png)
 
 ##### Output 2
 ![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
