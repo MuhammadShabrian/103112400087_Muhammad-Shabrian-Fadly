@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul 2 - Codeblocks IDE & Pengenalan Bahasa C++ (Bagian Kedua)</h1>
-<p align="center">Muhammad Shabrian Fadky - 103112400087</p>
+<p align="center">Muhammad Shabrian Fadly - 103112400087</p>
 
 ## Dasar Teori
 Data merupakan suatu fakta-fakta tertentu sehingga menghasilkan kesimpulan dalam menarik suatu kesimpulan. Data adalah representasi dari fakta dunia nyata yang disimpan, direkam, direpresentasikan tidak hanya dalam bentuk teks tetapi juga dalam bentuk suara, sinyal maupun simbol.
