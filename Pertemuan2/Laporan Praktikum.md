@@ -9,20 +9,24 @@ Struktur data adalah merepresentasikan data pada memory secara logika dan setiap
 Struktur data membantu memahami hubungan antara data dan memungkinkan untuk mencari dan memanipulasi data dengan lebih efisien sesuai dengan kebutuhan aplikasi yang diimplementasikan. Dengan menggunakan struktur data yang tepat, programer dapat mengoptimalkan kinerja aplikasi dan mengatasi kompleksitas data yang tinggi.
 
 Array
+
 Array merupakan sebuah variabel yang menyimpan sekumpulan data yang memiliki tipe sama atau Array juga dapat disebut sebagai kumpulan dari nilai-nilai data bertipe sama dalam urutan tertentu yang memakai sebuah nama yang sama. Setiap data tersebut menempati alamat memori atau lokasi yang berbeda-beda dan selanjutnya disebut dengan elemen array. Elemen array sendiri dapat diakses melalui indeks yang terdapat di dalamnya.
 
 Array Multidimensi
+
 Array Multidimensi merupakan array yang serupa dengan array satu dimensi maupun array dua dimensi, namun array multidimensi dapat memiliki memori yang lebih besar. Biasanya array multidimensi digunakan untuk menyebut array dengan dimensi lebih dari dua atau array yang mempunyai lebih dari dua subskrip, seperti untuk menyebut array tiga dimensi, empat dimensi, lima dimensi dan seterusnya.
 
 Pointer
+
 pointer adalah variabel yang menyimpan alamat memori dari suatu nilai atau objek. Ini memungkinkan kita untuk mengakses dan memanipulasi nilai atau objek tersebut dengan cara yang lebih efisien dan fleksibel.
 
 Fungsi dan Prosedur
+
 Fungsi merupakan suatu program terpisah dalam blok sendiri yang berfungsi sebagai subprogram (program bagian). Sama seperti halnya dengan prosedur, namun tetap ada perbedaannya yaitu fungsi mempunyai pengembalian nilai / mengembalikan sebuah nilai (memiliki return value) dari tipe tertentu (tipe dasar atau tipe bentukan). Prosedur merupakan suatu program terpisah dalam blok sendiri yang berfungsi sebagai subprogram (program bagian). Prosedur biasanya bersifat suatu aktifitas seperti mencari bilangan prima dari sekumpulan bilangan atau mencari bilangan genap dari sekumpulan bilangan ,dsb.
 
 ## Guided 
 
-### 1.
+### 1. Guided 1
 
 ```C++
 #include<iostream>
@@ -49,7 +53,7 @@ int main(){
 ```
 Program C++ ini meminta input dari pengguna untuk mengisi nilai-nilai pada array, lalu menampilkan kembali semua isi array menggunakan perulangan for dan while.
 
-### 2.
+### 2. Guided 2
 
 ```C++
 #include<iostream>
@@ -107,7 +111,7 @@ int main() {
 }
 ```
 Program C++ ini melakukan operasi penjumlahan dan perkalian dua matriks 2x2, kemudian menampilkan hasilnya dengan menggunakan fungsi tampilkanHasil.
-### 3.
+### 3. Guided 3
 
 ```C++
 #include<iostream>
@@ -131,7 +135,7 @@ return 0;
 ```
 Program C++ ini menampilkan elemen-elemen array dengan dua cara, yaitu menggunakan pointer dan menggunakan indeks array secara langsung.
 
-### 4.
+### 4. Guided 4
 
 ```C++
 #include<iostream>
