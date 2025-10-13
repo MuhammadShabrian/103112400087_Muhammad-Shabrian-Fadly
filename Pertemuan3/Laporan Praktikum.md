@@ -9,6 +9,7 @@ Linked list adalah suatu bentuk struktur data yang berupa sekumpulan elemen data
 
 Array berdimensi 2 adalah suatu kumpulan data terstruktur yang terdiri dari dua dimensi atau dua indeks, yaitu baris dan kolom. Array berdimensi 2 dapat digunakan untuk menyimpan data yang terstruktur dalam bentuk matriks atau tabel. Deklarasi Array berdimensi 2 dilakukan dengan menentukan tipe data elemen yang disimpan, nama variabel Array, dan ukuran Array pada setiap dimensi.[486]
 
+
 ## Guided 
 
 ### 1.Guided 1
@@ -44,6 +45,8 @@ int main(){
     return 0;
 }
 ```
+
+Program C++ ini meminta pengguna untuk menginput data mahasiswa berupa NIM dan dua nilai, lalu menghitung nilai rata-ratanya. Program ini memperkenalkan konsep struct sebagai bentuk dasar dari ADT (Abstract Data Type) yang menyimpan data dan fungsi secara terpisah tapi saling berhubungan.
 
 ## Unguided 
 
@@ -100,7 +103,7 @@ int main() {
 ### Output Unguided 1 :
 ![Output Unguided1](https://github.com/MuhammadShabrian/103112400087_Muhammad-Shabrian-Fadly/blob/main/Pertemuan3/Output%20Unguided1.png)
 
-Program C++ ini menerima input berupa dua bilangan bertipe float, lalu menampilkan hasil penjumlahan, pengurangan, perkalian, dan pembagian dari kedua bilangan tersebut.
+Program C++ ini menyimpan data maksimal 10 mahasiswa, termasuk nama, NIM, nilai UTS, UAS, dan tugas. Setelah data diinput, program menghitung nilai akhir tiap mahasiswa berdasarkan rumus tertentu dan menampilkannya. 
 
 ### 2. Buatlah ADT pelajaran sebagai berikut di dalam file "pelajaran.h", Buatlah implementasi ADT pelajaran pada file "pelajaran.cpp", Cobalah hasil implementasi ADT pada file "main.cpp"
 ```C++
@@ -162,7 +165,8 @@ int main() {
 
 ![Output Unguided2](https://github.com/MuhammadShabrian/103112400087_Muhammad-Shabrian-Fadly/blob/main/Pertemuan3/Output%20Unguided2.png)
 
-Program C++ ini meminta input sebuah angka bulat positif (0–100), kemudian mengubah angka tersebut menjadi bentuk tulisan dalam bahasa Indonesia.
+Pada unguided2 ini, dibuat ADT pelajaran menggunakan tiga file terpisah: pelajaran.h, pelajaran.cpp, dan main.cpp. Tujuannya biar kode lebih rapi dan terstruktur. File header mendefinisikan bentuk datanya, file cpp berisi implementasi fungsinya, dan file main digunakan untuk menguji hasilnya.
+
 
 ### 3.Buatlah program dengan ketentuan: 2 buah array 2D integer berukuran 3×3 dan 2 buah pointer integer, fungsi/prosedur yang menampilkan isi sebuah array integer 2D, fungsi/prosedur yang akan menukarkan isi dari 2 array integer 2D pada posisi tertentu, fungsi/prosedur yang akan menukarkan isi dari variabel yang ditunjuk oleh 2 buah pointer
 
@@ -222,13 +226,20 @@ int main() {
 
 
 ```
+
+Program ini menggunakan dua array 2D berukuran 3x3 dan dua pointer. Program bisa menampilkan isi array, menukar elemen pada posisi tertentu antara dua array, serta menukar nilai yang ditunjuk oleh dua pointer
+
 ### Output Unguided 3 :
 ![Output Unguided3](https://github.com/MuhammadShabrian/103112400087_Muhammad-Shabrian-Fadly/blob/main/Pertemuan3/Output%20Unguided3.png)
 
 
 ## Kesimpulan
-Dari praktikum ini, 
+Dari praktikum ini, menunjukkan bahwa penerapan Abstract Data Type (ADT) membuat program lebih teratur dan mudah dipahami. Dengan memisahkan antara data dan proses pengolahannya, struktur program menjadi lebih rapi dan efisien. Penggunaan struct, pointer, dan array memperjelas bagaimana data saling terhubung dan dapat diolah dengan lebih fleksibel. Secara keseluruhan, konsep ADT membantu membangun program yang terstruktur, jelas, dan mudah dikembangkan.
+
 ## Referensi
-[1] Setiyawan. (2024). Penggunaan Struktur Data Stack dalam Pemrograman C++ dengan Pendekatan Array dan Linked List. JUTECH : Journal Education and Technology, Vol. 5, No. 2. Diakses dari https://jurnal.stkippersada.ac.id/jurnal/index.php/jutech/article/view/4263/pdf
-<br>[2] GeeksforGeeks. (2025, 28 Maret). Abstract Data Types. Diakses dari https://www.geeksforgeeks.org/dsa/abstract-data-types/
-<br>[3]TutorialsPoint. (2023, 5 Oktober). Abstract Data Type in Data Structures. Diakses dari https://www.tutorialspoint.com/abstract-data-type-in-data-structures
+[1] Setiyawan. (2024). Penggunaan Struktur Data Stack dalam Pemrograman C++ dengan Pendekatan Array dan Linked List. JUTECH : Journal Education and Technology, Vol. 5, No. 2, 486-487. 
+Diakses dari https://jurnal.stkippersada.ac.id/jurnal/index.php/jutech/article/view/4263/pdf
+<br>[2] GeeksforGeeks. (2025, 28 Maret). Abstract Data Types. 
+Diakses dari https://www.geeksforgeeks.org/dsa/abstract-data-types/
+<br>[3]TutorialsPoint. (2023, 5 Oktober). Abstract Data Type in Data Structures. 
+Diakses dari https://www.tutorialspoint.com/abstract-data-type-in-data-structures
