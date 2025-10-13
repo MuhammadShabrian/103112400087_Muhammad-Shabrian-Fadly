@@ -227,11 +227,12 @@ int main() {
 
 ```
 
-Program ini menggunakan dua array 2D berukuran 3x3 dan dua pointer. Program bisa menampilkan isi array, menukar elemen pada posisi tertentu antara dua array, serta menukar nilai yang ditunjuk oleh dua pointer
+
 
 ### Output Unguided 3 :
 ![Output Unguided3](https://github.com/MuhammadShabrian/103112400087_Muhammad-Shabrian-Fadly/blob/main/Pertemuan3/Output%20Unguided3.png)
 
+Program ini menggunakan dua array 2D berukuran 3x3 dan dua pointer. Program bisa menampilkan isi array, menukar elemen pada posisi tertentu antara dua array, serta menukar nilai yang ditunjuk oleh dua pointer
 
 ## Kesimpulan
 Dari praktikum ini, menunjukkan bahwa penerapan Abstract Data Type (ADT) membuat program lebih teratur dan mudah dipahami. Dengan memisahkan antara data dan proses pengolahannya, struktur program menjadi lebih rapi dan efisien. Penggunaan struct, pointer, dan array memperjelas bagaimana data saling terhubung dan dapat diolah dengan lebih fleksibel. Secara keseluruhan, konsep ADT membantu membangun program yang terstruktur, jelas, dan mudah dikembangkan.
