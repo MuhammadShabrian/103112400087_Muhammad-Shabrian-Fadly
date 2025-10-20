@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 4 - S1NGLY LINKED LIST (BAGIAN PERTAMA) </h1>
+# <h1 align="center">Laporan Praktikum Modul 4 - SINGLY LINKED LIST (BAGIAN PERTAMA) </h1>
 <p align="center">Muhammad Shabrian Fadly - 103112400087</p>
 
 ## Dasar Teori
@@ -184,7 +184,7 @@ int main(){
     return 0;
 }
 ```
-Pada guided1 ini
+Pada guided1 ini, memperkenalkan dasar dari singly linked list dengan fungsi-fungsi dasar seperti createList(), alokasi(), dealokasi(), serta proses menambahkan elemen menggunakan insertFirst(), insertAfter(), dan insertLast(). Program ini bertujuan untuk memahami bagaimana node saling terhubung satu arah melalui pointer dan bagaimana data bisa ditambahkan di awal, tengah, maupun akhir list.
 
 ### 2.Guided 2
 ```C++
@@ -453,7 +453,7 @@ int main(){
 }
 ```
 
-Pada guided2 ini
+Pada guided2 ini, melengkapi fungsi sebelumnya dengan operasi penghapusan data seperti delFirst(), delLast(), dan delAfter(), serta fungsi tambahan nbList() untuk menghitung jumlah node dan deleteList() untuk menghapus seluruh isi list. Bagian ini membantu memahami manajemen memori dan pentingnya dealokasi agar tidak terjadi kebocoran memori.
 
 
 ## Unguided 
@@ -560,9 +560,9 @@ int main() {
 ### Output Unguided 1 :
 ![Output Unguided1](https://github.com/MuhammadShabrian/103112400087_Muhammad-Shabrian-Fadly/blob/main/Pertemuan4/Output%20Unguided1.png)
 
-Program C++ ini
+Program unguided 1 ini, membuat ADT singly linked list sederhana yang menyimpan data bertipe integer. Fungsinya meliputi pembuatan list, penambahan node di awal, menampilkan isi list, dan penghapusan node lewat dealokasi(). Program ini menampilkan daftar angka yang terhubung satu sama lain secara dinamis.
 
-### 2.Dari soal Latihan pertama, lakukan penghapusan node 9 menggunakan deleteFirst(), node 2 menggunakan deleteLast(), dan node 8 menggunakan deleteAfter(). Kemudian tampilkan jumlah node yang tersimpan menggunakan nbList() dan lakukan penghapusan seluruh node menggunakan deleteList().
+### 2. Dari soal Latihan pertama, lakukan penghapusan node 9 menggunakan deleteFirst(), node 2 menggunakan deleteLast(), dan node 8 menggunakan deleteAfter(). Kemudian tampilkan jumlah node yang tersimpan menggunakan nbList() dan lakukan penghapusan seluruh node menggunakan deleteList().
 
 ```C++
 //singlylist.h
@@ -731,10 +731,10 @@ int main() {
 
 ![Output Unguided2](https://github.com/MuhammadShabrian/103112400087_Muhammad-Shabrian-Fadly/blob/main/Pertemuan4/Output%20Unguided2.png)
 
-Pada unguided2 ini, 
+Pada unguided2 ini, menambahkan operasi penghapusan spesifik, yaitu deleteFirst(), deleteLast(), dan deleteAfter(), serta perhitungan jumlah node lewat nbList() dan penghapusan seluruh node menggunakan deleteList(). Program ini memperlihatkan bagaimana elemen dalam linked list dapat dikelola secara fleksibel tanpa perlu struktur data dengan ukuran tetap.
 
 ## Kesimpulan
-Dari praktikum ini, 
+Dari praktikum ini, bisa disimpulkan bahwa singly linked list adalah struktur data dinamis yang memudahkan penambahan dan penghapusan data tanpa harus memindahkan elemen lainnya. Penggunaan pointer memungkinkan hubungan antar node berjalan satu arah dari head ke tail. Praktikum ini memperlihatkan pentingnya pengelolaan memori (alokasi dan dealokasi) agar program berjalan efisien dan bebas dari error, sekaligus membantu memahami bagaimana data dapat diatur lebih fleksibel dibandingkan dengan array yang bersifat statis.
 
 ## Referensi
 [1] Setiyawan. (2024). Penggunaan Struktur Data Stack dalam Pemrograman C++ dengan Pendekatan Array dan Linked List. JUTECH : Journal Education and Technology, Vol. 5, No. 2, 486-487. 
