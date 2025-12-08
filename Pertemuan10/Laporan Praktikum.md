@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 9 - TREE </h1>
+# <h1 align="center">Laporan Praktikum Modul 10 - TREE </h1>
 <p align="center">Muhammad Shabrian Fadly - 103112400087</p>
 
 ## Dasar Teori
@@ -6,22 +6,21 @@
 Struktur tree adalah struktur yang mengandung aspek hirarki yang dibentuk melalui pengelompokkan elemen atau node dalam tingkatan tertentu. Terdapat macam-macam jenis tree beserta cabang ilmu lainnya yang berkaitan dengan jenis-jenis tree tersebut. Salah satunya adalah binary tree. Jenis tree tersebut identik dengan ciri parent yang pasti hanya memiliki dua anak. [21]
 
 Struktur data tree menawarkan beberapa keunggulan penting, di antaranya:
-
--Efisiensi pencarian dan penyisipan data, terutama pada jenis tree seperti Binary Search Tree (BST) yang memungkinkan pencarian dalam waktu logaritmik.
--Representasi relasi hierarkis yang alami, seperti struktur organisasi, direktori file, dan klasifikasi data.
--Fleksibilitas traversal, memungkinkan data diproses dalam berbagai urutan tergantung pada kebutuhan aplikasi.
+<br>-Efisiensi pencarian dan penyisipan data, terutama pada jenis tree seperti Binary Search Tree (BST) yang memungkinkan pencarian dalam waktu logaritmik.
+<br>-Representasi relasi hierarkis yang alami, seperti struktur organisasi, direktori file, dan klasifikasi data.
+<br>-Fleksibilitas traversal, memungkinkan data diproses dalam berbagai urutan tergantung pada kebutuhan aplikasi.
 
 
 Beberapa istilah penting dalam tree:
 
--Root: Node utama paling atas dalam tree.
--Parent & Child: Node yang memiliki koneksi ke node lain disebut induk (parent), sedangkan node yang berada di bawahnya dinamakan anak (child).
--Leaf: Node yang tidak memiliki anak.
--Edge: Garis penghubung antara dua node.
--Path: Jalur dari satu node ke node lainnya melalui edge.
--Height: Panjang maksimum dari root ke leaf terdalam.
--Depth: Jarak dari root ke suatu node.
--Subtree: Pohon kecil yang merupakan bagian dari tree utama.
+<br>-Root: Node utama paling atas dalam tree.
+<br>-Parent & Child: Node yang memiliki koneksi ke node lain disebut induk (parent), sedangkan node yang berada di bawahnya dinamakan anak (child).
+<br>-Leaf: Node yang tidak memiliki anak.
+<br>-Edge: Garis penghubung antara dua node.
+<br>-Path: Jalur dari satu node ke node lainnya melalui edge.
+<br>-Height: Panjang maksimum dari root ke leaf terdalam.
+<br>-Depth: Jarak dari root ke suatu node.
+<br>-Subtree: Pohon kecil yang merupakan bagian dari tree utama.
 
 
 ## Guided 
@@ -915,7 +914,7 @@ int main(){
 Program Unguided 3 ini menampilkan data menggunakan preorder dan postorder. Kedua traversal tersebut memperlihatkan susunan tree dari arah yang berbeda, sehingga memudahkan memahami bentuk tree secara lebih menyeluruh.
 
 ## Kesimpulan
-Dari praktikum ini, Praktikum ini memberi gambaran jelas tentang bagaimana Binary Search Tree bekerja mulai dari struktur, cara menyimpan data, hingga penelusuran dan penghapusan. Pemakaian fungsi rekursif membuat proses traversal dan perhitungan menjadi lebih ringkas dan mudah dipahami. Setiap program menunjukkan bahwa BST mampu mengelola data secara terurut, efisien, dan tetap fleksibel saat dilakukan pencarian maupun perubahan data. Dengan memahami operasi dasar dan tambahan pada tree, pengelolaan data yang berbentuk hierarki menjadi lebih terstruktur dan mudah diolah.
+Dari praktikum ini, memberi gambaran jelas tentang bagaimana Binary Search Tree bekerja mulai dari struktur, cara menyimpan data, hingga penelusuran dan penghapusan. Pemakaian fungsi rekursif membuat proses traversal dan perhitungan menjadi lebih ringkas dan mudah dipahami. Setiap program menunjukkan bahwa BST mampu mengelola data secara terurut, efisien, dan tetap fleksibel saat dilakukan pencarian maupun perubahan data. Dengan memahami operasi dasar dan tambahan pada tree, pengelolaan data yang berbentuk hierarki menjadi lebih terstruktur dan mudah diolah.
 
 ## Referensi
 [1] Djayusman, D., Suhartini, I., Gunawan, F. N., Alhakim, N. T., & Gunawan, T. A. (2021). Implementasi struktur data tree pada game Snake dengan C. Jurnal DIGIT, 11(1), 20–27. https://jurnaldigit.org/index.php/DIGIT/article/download/176/135 
