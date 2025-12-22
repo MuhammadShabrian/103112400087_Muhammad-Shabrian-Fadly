@@ -13,12 +13,14 @@ Graf G didefinisikan sebagai pasangan himpunan (V,E), ditulis dengan notasi G=(V
 Dalam teori ini, simpul mewakili entitas atau objek, sedangkan sisi adalah hubungan antara simpul-simpul tersebut. Misalnya, dalam jaringan sosial, simpul dapat mewakili pengguna, dan sisi menggambarkan hubungan pertemanan di antara mereka.
 
 -Graf sederhana (simple graph): Graf yang tidak mengandung loop maupun sisi ganda.
+
 -Graf tak-sederhana (unsimple-graph): Graf yang mengandung loop maupun sisi ganda.
 
 2. Berdasarkan orientasi arah pada sisi
 Graf Berarah dan Tidak Berarah: Graf yang berisi sisi dengan arah disebut “graf berarah,” sedangkan graf yang tidak memiliki arah pada sisinya disebut “graf tidak berarah.” Misalnya, peta jalan kota adalah contoh graf berarah karena jalan-jalan memiliki arah, sementara jaringan telepon adalah contoh graf tidak berarah karena panggilan bisa berjalan dalam dua arah.
 
 -Graf tak berarah (undirected graph): Graf yang sisinya tidak mempunyai orientasi arah.
+
 -Graf berarah (directed graph/digraph): Graf yang setiap sisinya diberikan orientasi arah.
 
 3. Graf Berbobot
@@ -723,5 +725,4 @@ Dari praktikum ini, Graf dapat direpresentasikan menggunakan struktur data linke
 
 ## Referensi
 [1] Andriani, A., Damanik, N. G., Damanik, T., Kembaren, S. N. B., Hutagalung, C. F., Harahap, D. M., Manik, S. G., Silitonga, N. S. S., & Haris, D. (2025). Studi literatur: Pembelajaran teori graph sebagai alat untuk meningkatkan keterampilan berpikir kritis siswa. Kognitif: Jurnal Riset HOTS Pendidikan Matematika, 5(2), 670–680. https://doi.org/10.51574/kognitif.v5i2.2381
-
 <br>[2]Telkom University Surabaya. (n.d.). Teori graf: Sejarah, manfaat, dan aplikasinya. Diakses dari https://surabaya.telkomuniversity.ac.id/teori-graf-sejarah-manfaat-dan-aplikasinya/
